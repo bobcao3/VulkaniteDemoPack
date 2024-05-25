@@ -37,7 +37,7 @@ layout(binding = 1) uniform accelerationStructureEXT acc;
 
 layout(binding = 3) uniform sampler2D blockTex;
 
-layout(binding = 6) writeonly uniform image2D outImage;
+layout(binding = 6) writeonly uniform image2D outImage[];
 layout(location = 6) rayPayloadEXT Payload payload;
 
 void main() {
